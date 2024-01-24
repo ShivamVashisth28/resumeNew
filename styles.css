@@ -1,0 +1,156 @@
+
+body{
+    background-color: #ffc2d1;
+    
+    margin: 0;
+}
+
+
+
+.main img,.other-img{
+    width: 35vh;
+    border-radius: 50%;
+    border: solid rgb(14, 13, 15) 0.2rem;
+    margin-bottom: 2vh;
+    transition: width 1.5s;
+
+}
+
+.main img:hover,.other-img:hover{
+    width:40vh;
+}
+
+p{
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-size: 6vh;
+    margin: 0;
+    transition: margin 1.5s;
+}
+
+.left:hover{
+    margin-left: 3rem;
+}
+.right:hover{
+    margin-right:3rem;
+}
+
+
+
+.main{
+    display: grid;
+    height: 100vh;
+    border: solid #cdb4db 2vh;
+    margin:0
+}
+
+.nav{    
+    display: flex;
+    list-style: none;
+}
+
+.nav li{
+    font-size: 4vh;
+    padding: 3vh;
+    transition: font-size 1s;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav li:hover{
+    font-size: 5vh;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-page{
+    display: flex;
+    height: 100vh;
+    padding-top: 5vh;
+    padding-left: 5vw;
+    padding-bottom: 2vh;
+    border: solid #cdb4db 1.5vh;
+}
+
+
+.heading{
+    font-size: 3.2rem;
+}
+
+li{
+    color: black;
+    font-family: 'Satisfy', cursive;
+    font-size: 3.5vh;
+    padding: 1vh;
+}
+
+
+table{
+    height: 80vh;
+    margin-left: 15vw;
+    margin-top: 15vh;
+}
+td,th{
+    color: brown;
+    padding: 3vh;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family:'Satisfy', cursive ;
+    border: solid #3a2445 0.5vh ;
+}
+th{
+    color: black;
+}
+
+
+.other-img{
+    width: 20vh;
+}
+
+
+.container{
+    
+    display: grid;
+    width: 70vw;
+    height: 50vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(1fr,3)
+}
+
+.item img{
+    height: 15vh;
+    transition: height 2s;
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    padding: 5vh;
+    
+}
+
+
+.item img:hover{
+    height: 17vh;
+}
+
+.third li{
+    transition: font-size 1.5s;
+}
+
+.third .container{
+    width:90vh;
+    height: 80vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.third li:hover{
+    font-size:4.5vh;
+}
